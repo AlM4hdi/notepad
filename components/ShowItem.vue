@@ -5,7 +5,7 @@ const show = ref([])
 async function getData() {
 
   try{
-    const { data } = await useFetch("https://accounting.classtechbd.com/api/Note.php?action=get")
+    const { data } = await useFetch("https://YourWebsiteURL/api/Note.php?action=get")
     if(!data.value){
       console.log('failed to get')
     }else {

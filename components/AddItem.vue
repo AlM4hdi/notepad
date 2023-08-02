@@ -12,7 +12,7 @@ const addItem = async () => {
     formData.append('title', title.value);
 
     try {
-      const { data } = await useFetch("https://accounting.classtechbd.com/api/Note.php?action=add", {
+      const { data } = await useFetch("https://yourWebsite/api/Note.php?action=add", {
         method: 'POST',
         body: formData
       });

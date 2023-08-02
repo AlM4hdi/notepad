@@ -1,63 +1,14 @@
-# Nuxt 3 Minimal Starter
+Notepad using NUXT 3 and connecting to mysql database.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Here php is used to connect to database and update and get data. 
+All the steps are given below: 
+First step is installing Nuxt 3 and then run it in the local server
 
-## Setup
+then create database table from your c-panel.
+then write the backend php code first and upload it in the file manager from c-panel of your website.
 
-Make sure to install the dependencies:
+After successfully getting and posting from the database, Start coding nuxt 3 code for the Notepad.
+In the Notepad there will be two sections one is adding item and the second is showing the items.
 
-```bash
-# npm
-npm install
+Final step is connecting from one component to another component using props and emit. 
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
